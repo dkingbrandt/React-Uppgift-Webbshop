@@ -1,0 +1,77 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  box-sizing: border-box;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  background-color: rgb(212, 206, 206);
+  position: relative;
+  margin: 0;
+}
+span.navbar-toggler-icon {
+  color: white;
+}
+.navbarColor {
+  min-height: 100px;
+  background-color: rgba(102, 10, 59, 1);
+  box-shadow: 0px 0px 5px whitesmoke;
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.Icon {
+  margin-bottom: 10px;
+}
+
+span {
+  color: white;
+}
+
+.product {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+input,
+label {
+  width: 100%;
+}
+
+.me-auto {
+  color: orange;
+}
+
+@keyframes textFlow {
+  from {
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    display: block;
+    color: white;
+  }
+}
+
+.textAnimation {
+  color: rgba(255, 255, 255, 0);
+  animation: textFlow 8s ease;
+  font-size: 120%;
+}
+
+.product-edit video,
+.product-edit canvas,
+.product-edit img {
+  width: 320px;
+  height: 240px;
+}
